@@ -8,5 +8,3 @@ A scroll-driven CRT scene built with Next.js and Three.js.
 npm install
 npm run dev
 ```
-
-Pushing to `main` rebuilds and redeploys the site automatically.
