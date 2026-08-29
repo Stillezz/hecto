@@ -25,10 +25,3 @@ Open [http://localhost:3000](http://localhost:3000).
 - `src/features/grain/` — film-grain overlay.
 - `public/assets/figma/crt-reference.png` — artwork sampled onto the screen.
 
-## Credits
-
-Shader techniques are adapted from these MIT-licensed CodePen sources, with
-attribution in the files that borrow from them:
-
-- [It Is All Just a Reflection](https://codepen.io/atzedent/pen/PovvpvR) — Matthias Hurrle
-- [WebGL Scroll Sync V2](https://codepen.io/luis-lessrain/pen/bNwBYMM) — Luis Alberto Martinez Riancho
