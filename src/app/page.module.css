@@ -1,0 +1,74 @@
+.scrollTrack {
+  position: relative;
+  height: 620svh;
+  background: #090806;
+}
+
+.closeMarker,
+.entryMarker {
+  position: absolute;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.closeMarker {
+  top: 291.2svh;
+}
+
+.entryMarker {
+  top: 405.6svh;
+}
+
+.scrollEnd {
+  height: 1px;
+  background: #090806;
+}
+
+.page {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #090806;
+}
+
+.stage {
+  position: relative;
+  width: 100%;
+  height: 100svh;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.stage :global(.crtScene) {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.stage :global(canvas) {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: grab;
+  touch-action: none;
+}
+
+.stage :global(canvas):active {
+  cursor: grabbing;
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
